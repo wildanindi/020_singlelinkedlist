@@ -31,4 +31,12 @@ void addNode () {
         START = nodeBaru;
         return;
     }
+
+    Node* previous = START;
+    Node* current = START;
+
+    while ((current != NULL) && (nim >= current->noMhs))
+    {
+        
+    }
 }
