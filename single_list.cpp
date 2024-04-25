@@ -86,5 +86,12 @@ bool listEmpty(){
     if (START == NULL)
         return true;
     else
-        return false;    
+        return false; 
+}
+
+void traverse(){
+    if (listEmpty()){
+        cout << "List Kosong" << endl;
+        
+    }
 }
